@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "BFNarrow";
+    src: url("../fonts/BetterFly-Narrow.woff2") format("woff2"),
+    url("../fonts/BetterFly-Narrow.woff") format("woff");
+    
+}
+
+:root {
+    --clr-text:#ffffff;
+    --clr-primary: #32CD32;
+    --clr-accent: #00BFFF;
+
+    --ff-title: "BFNarrow", sans-serif;
+   
+}
+
+html { 
+    background: url(../img/1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+
+
+
+  h1 {
+    font-family: var(--ff-title);
+    color: var(--clr-text);
+    font-size: 20rem;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 0 0 1em rgb(0,0,0,1.5);
+  }
