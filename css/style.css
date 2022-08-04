@@ -33,5 +33,5 @@ html {
     letter-spacing: 5px;
     text-align: center;
     font-weight: 700;
-    text-shadow: 0 0 1em rgb(0,0,0,1.5);
+    text-shadow: 0 0 0 rgb(0,0,0,1.5);
   }
