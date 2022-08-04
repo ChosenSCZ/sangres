@@ -29,7 +29,7 @@ html {
   h1 {
     font-family: var(--ff-title);
     color: var(--clr-text);
-    font-size: 20rem;
+    font-size: 15rem;
     letter-spacing: 5px;
     text-align: center;
     font-weight: 700;
